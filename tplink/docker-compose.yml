@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  cent-os:
+    container_name: cent-os
+    hostname: cent.os
+    build:
+      context: .
+    volumes:
+      - ./shared:/home/tplink/shared
